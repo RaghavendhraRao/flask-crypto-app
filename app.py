@@ -11,13 +11,11 @@ app = Flask(__name__)
 #     return render_template('index.html', price=price)
 
 
-print("This is the testing app..!")
-print("This Page will show the BTC price...!")
 
 @app.route('/')
 def index():
     # MOCK data instead of calling external API
-    price = "42,000.99"  # fake BTC price for testing
+    price = "42,000.998"  # fake BTC price for testing
     return render_template('index.html', price=price)
 
 if __name__ == '__main__':
