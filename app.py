@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 import requests
 import logging
+from prometheus_flask_exporter import PrometheusMetrics
 
 
 # Logging setup
@@ -13,6 +14,7 @@ logging.basicConfig(
 
 app = Flask(__name__)
 
+metrics = PrometheusMetrics(app)
 # @app.route('/')
 # def index():
 #     response = requests.get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json')
