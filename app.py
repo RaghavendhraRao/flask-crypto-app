@@ -3,7 +3,6 @@ import requests
 import logging
 from prometheus_flask_exporter import PrometheusMetrics
 
-
 # Logging setup
 logging.basicConfig(
     filename='app.log',
@@ -11,24 +10,13 @@ logging.basicConfig(
     format='%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'
 )
 
-
 app = Flask(__name__)
-
-metrics = PrometheusMetrics(app)
-# @app.route('/')
-# def index():
-#     response = requests.get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json')
-#     data = response.json()
-#     price = data['bpi']['USD']['rate']
-#     return render_template('index.html', price=price)
-
-
+metrics = PrometheusMetrics(app, path='/metrics')  # ✅ Force registering /metrics endpoint
 
 @app.route('/')
 def index():
     try:
-        # MOCK data instead of calling external API
-        price = "42,000.998"  # fake BTC price for testing
+        price = "42,000.998"
         logging.info("Fetched Bitcoin rate successfully.")
         return render_template('index.html', price=price)
     except Exception as e:
