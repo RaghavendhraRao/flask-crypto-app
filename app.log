@@ -1,0 +1,11 @@
+2025-07-28 20:10:26,319 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.42:5000 [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 20:10:26,319 INFO: [33mPress CTRL+C to quit[0m [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 20:10:26,321 INFO:  * Restarting with stat [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 20:10:26,949 WARNING:  * Debugger is active! [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 20:10:26,955 INFO:  * Debugger PIN: 627-182-951 [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 20:10:44,782 INFO: Fetched Bitcoin rate successfully. [in C:\Devops Learning 2025_self\flask-crypto-app\app.py:30]
+2025-07-28 20:10:44,788 INFO: 127.0.0.1 - - [28/Jul/2025 20:10:44] "GET / HTTP/1.1" 200 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 20:10:45,453 INFO: 127.0.0.1 - - [28/Jul/2025 20:10:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
