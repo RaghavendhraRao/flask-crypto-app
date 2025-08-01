@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import requests
 import logging
 from prometheus_flask_exporter import PrometheusMetrics
 
@@ -11,12 +10,14 @@ logging.basicConfig(
 )
 
 app = Flask(__name__)
-metrics = PrometheusMetrics(app, path='/metrics')  # ✅ Force registering /metrics endpoint
+
+# Prometheus Metrics — register *after* app is defined
+metrics = PrometheusMetrics(app, group_by='endpoint')
 
 @app.route('/')
 def index():
     try:
-        price = "42,000.998"
+        price = "42,000.998"  # mocked data
         logging.info("Fetched Bitcoin rate successfully.")
         return render_template('index.html', price=price)
     except Exception as e:

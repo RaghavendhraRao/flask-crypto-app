@@ -9,3 +9,30 @@
 2025-07-28 20:10:44,782 INFO: Fetched Bitcoin rate successfully. [in C:\Devops Learning 2025_self\flask-crypto-app\app.py:30]
 2025-07-28 20:10:44,788 INFO: 127.0.0.1 - - [28/Jul/2025 20:10:44] "GET / HTTP/1.1" 200 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
 2025-07-28 20:10:45,453 INFO: 127.0.0.1 - - [28/Jul/2025 20:10:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:48:06,529 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.42:5000 [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:48:06,529 INFO: [33mPress CTRL+C to quit[0m [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:48:06,531 INFO:  * Restarting with stat [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:48:07,327 WARNING:  * Debugger is active! [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:48:07,332 INFO:  * Debugger PIN: 627-182-951 [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:48:24,407 INFO: Fetched Bitcoin rate successfully. [in C:\Devops Learning 2025_self\flask-crypto-app\app.py:20]
+2025-07-28 21:48:24,478 INFO: 127.0.0.1 - - [28/Jul/2025 21:48:24] "GET / HTTP/1.1" 200 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:48:30,321 INFO: 127.0.0.1 - - [28/Jul/2025 21:48:30] "[33mGET /metrics HTTP/1.1[0m" 404 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:33,055 INFO:  * Detected change in 'C:\\Devops Learning 2025_self\\flask-crypto-app\\app.py', reloading [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:33,136 INFO:  * Restarting with stat [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:33,569 WARNING:  * Debugger is active! [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:33,575 INFO:  * Debugger PIN: 627-182-951 [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:43,789 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.42:5000 [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:43,790 INFO: [33mPress CTRL+C to quit[0m [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:43,791 INFO:  * Restarting with stat [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:44,182 WARNING:  * Debugger is active! [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:44,186 INFO:  * Debugger PIN: 627-182-951 [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:52,218 INFO: 127.0.0.1 - - [28/Jul/2025 21:49:52] "[33mGET /metrics HTTP/1.1[0m" 404 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:49:59,308 INFO: Fetched Bitcoin rate successfully. [in C:\Devops Learning 2025_self\flask-crypto-app\app.py:20]
+2025-07-28 21:49:59,312 INFO: 127.0.0.1 - - [28/Jul/2025 21:49:59] "GET / HTTP/1.1" 200 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
+2025-07-28 21:50:12,341 INFO: 127.0.0.1 - - [28/Jul/2025 21:50:12] "[33mGET /metrics HTTP/1.1[0m" 404 - [in C:\Devops Learning 2025_self\flask-crypto-app\venv\Lib\site-packages\werkzeug\_internal.py:97]
